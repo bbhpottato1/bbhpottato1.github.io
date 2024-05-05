@@ -8,13 +8,14 @@
     padding-left: 15px;
 }
 .navbar-text {
+    font-size:25px;
     display:flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .navbar-list {
-    
     list-style: none;
     display:inline-block;
-
+    margin-right:24px;
 }
