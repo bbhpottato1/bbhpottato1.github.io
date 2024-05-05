@@ -2,11 +2,18 @@
     text-decoration: none;
 }
 .navbar {
+    background-color:#15c2cf;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-text {
+    display:flex;
     align-items: center;
     justify-content: space-between;
 }
+.navbar-list {
+    list-style: none;
+    display:inline-block;
 
-.navbar-text {
-    list-style: none; 
-    display: inline-block;
 }
