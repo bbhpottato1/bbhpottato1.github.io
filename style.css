@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "cabin";
+    src: url("font/Cabin-VariableFont_wdth\,wght.ttf") format('truetype');
+  }
+
 *{
     text-decoration: none;
 }
@@ -33,4 +38,5 @@ body {
 
 #paragraph {
     text-indent: 50px;
+    font-family: Cabin ;
 }
