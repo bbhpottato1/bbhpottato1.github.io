@@ -27,5 +27,7 @@ body {
 }
 
 .spotify-frame {
-    float:inline-end;
+    position: absolute;
+    top:0;
+    right:0;
 }
