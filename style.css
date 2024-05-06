@@ -25,3 +25,7 @@
 body {
     background-color: blanchedalmond;
 }
+
+.spotify-frame {
+    float:inline-end;
+}
