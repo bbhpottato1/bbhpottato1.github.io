@@ -9,8 +9,9 @@
 }
 .navbar-text {
     font-family: Helvetica;
+    font-weight: bold;
     font-size:25px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
