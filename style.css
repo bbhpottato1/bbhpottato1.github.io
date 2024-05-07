@@ -44,7 +44,7 @@ body {
   
  
 .spotify-frame iframe {
-    position: absolute;
+    position: relative;
     top: 100px;
     right: 8px;
   }
