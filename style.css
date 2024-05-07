@@ -31,12 +31,18 @@ body {
     background-color: blanchedalmond;
 }
 
-.spotify-frame {
-    top:0;
-    right:0;
-}
-
 #paragraph {
     text-indent: 50px;
     font-family: Cabin ;
 }
+
+.spotify-frame-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px; /* Adjust this value to position the iframe container below the content */
+  }
+  
+  .spotify-frame {
+    width: 350px;
+    height: 352px;
+  }
