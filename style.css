@@ -37,14 +37,9 @@ body {
     text-indent: 50px;
     font-family: Cabin;
 }
-
-.spotify-frame {
-    position: relative;
-  }
   
  
 .spotify-frame iframe {
-    position: relative;
     top: 100px;
     right: 8px;
   }
