@@ -42,7 +42,9 @@ body {
     display: flex;
     justify-content: flex-end;
     margin-top: 50px;
-    position: relative;
+    position: fixed;
+    top:100px;
+    right:8px;
 }
 
 .spotify-frame {
