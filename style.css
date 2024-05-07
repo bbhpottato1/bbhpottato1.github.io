@@ -41,6 +41,9 @@ body {
 .spotify-frame-container {
     display: flex;
     justify-content: flex-end;
+    position:absolute;
+    top:100px;
+    right:8px;
 }
 
 .spotify-frame {
