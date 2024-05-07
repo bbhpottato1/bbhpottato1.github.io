@@ -1,21 +1,23 @@
 @font-face {
     font-family: "cabin";
     src: url("font/Cabin-VariableFont_wdth\,wght.ttf") format('truetype');
-  }
+}
 
-*{
+* {
     text-decoration: none;
 }
+
 .navbar {
-    background-color:#4a4d4e;
+    background-color: #4a4d4e;
     font-family: Helvetica;
     padding-right: 15px;
     padding-left: 15px;
 }
+
 .navbar-text {
     font-family: Helvetica;
     font-weight: bold;
-    font-size:25px;
+    font-size: 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,8 +25,8 @@
 
 .navbar-list {
     list-style: none;
-    display:inline-block;
-    margin-right:24px;
+    display: inline-block;
+    margin-right: 24px;
 }
 
 body {
@@ -33,16 +35,17 @@ body {
 
 #paragraph {
     text-indent: 50px;
-    font-family: Cabin ;
+    font-family: Cabin;
 }
 
 .spotify-frame-container {
     display: flex;
     justify-content: flex-end;
-    margin-top: 50px; /* Adjust this value to position the iframe container below the content */
-  }
-  
-  .spotify-frame {
+    margin-top: 50px;
+    position: relative;
+}
+
+.spotify-frame {
     width: 350px;
     height: 352px;
-  }
+}
