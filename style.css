@@ -37,9 +37,3 @@ body {
     text-indent: 50px;
     font-family: Cabin;
 }
-
-#spotify-frame {
-    position:fixed;
-    top:100px;
-    right:8px;
-}
