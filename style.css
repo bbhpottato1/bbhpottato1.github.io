@@ -38,8 +38,13 @@ body {
     font-family: Cabin;
 }
 
-iframe.spotify-frame {
-    position:absolute;
+.spotify-frame {
+    position: relative;
+  }
+  
+  /* Iframe */
+.spotify-frame iframe {
+    position: absolute;
     top: 100px;
-    right:8px;
-}
+    right: 8px;
+  }
