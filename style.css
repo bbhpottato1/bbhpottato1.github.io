@@ -38,15 +38,3 @@ body {
     font-family: Cabin;
 }
 
-.spotify-frame-container {
-    display: flex;
-    justify-content: flex-end;
-    position:absolute;
-    top:100px;
-    right:8px;
-}
-
-.spotify-frame {
-    width: 350px;
-    height: 352px;
-}
