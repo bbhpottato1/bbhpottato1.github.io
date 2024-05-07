@@ -39,7 +39,7 @@ body {
 }
 
 .spotify-frame {
-    position:fixed;
+    position:relative;
     top: 100px;
     right:8px;
 }
