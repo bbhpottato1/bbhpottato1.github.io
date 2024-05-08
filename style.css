@@ -33,34 +33,31 @@ body {
     background-color: blanchedalmond;
 }
 
-#paragraph {
-    text-indent: 50px;
-    font-family: Cabin;
-}
+.content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  #paragraph {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .iframe-container {
+    flex-shrink: 0;
+    width: 30%;
+  }
+  
+  .iframe-container iframe {
+    width: 100%;
+    height: 352px;
+  }
+  
+  /* Existing styles for navbar, etc. */
+  
   
  
-.pain-in-the-ass {
-    display: flex;
-  }
-
-.pain-in-the-ass > div {
-    width:25%;
-}
-
-.pain-in-the-ass * {
-    box-sizing:border-box;
-}
-
-.spotify-frame {
-    position:relative;
-}
-
-.spotify-frame iframe {
-    position: absolute;
-    top: 100px;
-    right:0%;
-    width: 100%;
-    height: 100%;
-  }
 
   
