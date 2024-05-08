@@ -41,5 +41,26 @@ body {
  
 .pain-in-the-ass {
     display: flex;
-    flex-wrap: nowrap;
   }
+
+.pain-in-the-ass > div {
+    width:25%;
+}
+
+.pain-in-the-ass * {
+    box-sizing:border-box;
+}
+
+.spotify-frame {
+    position:relative;
+}
+
+.spotify-frame iframe {
+    position: absolute;
+    top: 100px;
+    right:8px;
+    width: 100%;
+    height: 100%;
+  }
+
+  
