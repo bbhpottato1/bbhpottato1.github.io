@@ -39,8 +39,7 @@ body {
 }
   
  
-.spotify-frame iframe {
-    position:absolute;
-    top: 100px;
-    right: 8px;
+.spotify-frame {
+    display: flex;
+    flex-wrap: nowrap;
   }
