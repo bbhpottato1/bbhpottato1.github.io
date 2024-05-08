@@ -37,7 +37,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
   }
   
   #paragraph {
@@ -48,6 +47,7 @@ body {
   .iframe-container {
     flex-shrink: 0;
     width: 30%;
+    text-align:right;
   }
   
   .iframe-container iframe {
