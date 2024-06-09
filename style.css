@@ -29,9 +29,13 @@
   color: white;
 }
 
-.sidebar a:hover:not(.active) {
+.hover a:hover:not(.active) {
   background-color: #555;
   color: white;
+}
+
+#navimg {
+  padding-left: 60px;
 }
 
 div.content {
