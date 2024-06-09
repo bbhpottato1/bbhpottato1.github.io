@@ -7,30 +7,37 @@
     text-decoration: none;
 }
 
-.navbar {
-    background-color: #4a4d4e;
-    font-family: Helvetica;
-    padding-right: 15px;
-    padding-left: 15px;
+.sidebar {
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-.navbar-text {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.sidebar a {
+  display: block;
+  font-family: "cabin";
+  font-size:  20px;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
 }
 
-.navbar-list {
-    list-style: none;
-    display: inline-block;
-    margin-right: 24px;
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
-body {
-    background-color: #A9A9A9;
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
 }
 
 .content-container {
@@ -55,4 +62,6 @@ body {
     height: 352px;
   }
 
-  /* Existing styles for navbar, etc. */
+#main-content {
+  padding-left: 220px;
+}
