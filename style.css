@@ -69,3 +69,9 @@ div.content {
 #main-content {
   padding-left: 220px;
 }
+
+#text {
+  font-family: "cabin";
+  font-size: 23px;
+  
+}
