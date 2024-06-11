@@ -85,7 +85,8 @@ div.content {
 }
 
 .img_gallery img{
-  width:50%;
+  width: 10%;
+  height: 10%;
   cursor: pointer;
 
 }
