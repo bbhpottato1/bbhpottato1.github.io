@@ -86,7 +86,7 @@ div.content {
 
 .img_gallery img{
   cursor: pointer;
-  max-width: 1080px;
+  max-width: 720px;
   height: auto;
   object-fit: contain;
 }
