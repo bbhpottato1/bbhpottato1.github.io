@@ -108,7 +108,7 @@ div.content {
 
 .full_Img img {
   width: 90%;
-  max-width: 100%;
+  max-width: 720px;
 }
 
 .full_Img span{
