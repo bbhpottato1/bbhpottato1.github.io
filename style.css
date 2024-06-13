@@ -86,6 +86,8 @@ div.content {
 
 .img_gallery img{
   cursor: pointer;
+  width: 50%;
+  height: 50%;
 }
 
 #pic {
