@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Photography</title>
-        <!-- Style sheet information as well as the information for the tab icon -->
+        <!Style sheet information as well as the information for the tab icon>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="img/Photo.ico" type="image/x-icon">
     </head>
     <body>
         <div class="sidebar">
             <a href="index.html" id="navimg">
-                <img src="img/tomatlogo.png" style="height: 75px; width: 75px;">
+                <img src="html/img/tomatlogo.png" style="height: 75px; width: 75px;">
             </a>
             <div class="hover">
                 <a href="graphicdesign.html"> Graphic Design</a>
@@ -24,72 +24,42 @@
         </div>
         <main class="main-content">
             <div class="full_Img" id="fullImgBox">
-                <img src="Photos/photoshoots/Photoshoot_1/Image1.png" id="fullImg">
-                <span onclick="closeFullImg()">x</span>
+                <img src="" id="fullImg">
+                <span onclick="closeFullImg()">X</span>
             </div>
 
             <div class="img-gallery">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP1.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP2.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP3.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP4.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP5.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP6.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP7.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP8.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP9.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP10.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP11.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP12.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP13.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP14.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP15.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP16.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP17.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP18.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP19.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP20.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP21.png" id="pic" onclick="openFullImg(this.src)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP22.png" id="pic" onclick="openFullImg(this.src)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP1.png" data-full="Photos/photoshoots/Photoshoot_1/Image1.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP2.png" data-full="Photos/photoshoots/Photoshoot_1/Image2.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP3.png" data-full="Photos/photoshoots/Photoshoot_1/Image3.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP4.png" data-full="Photos/photoshoots/Photoshoot_1/Image4.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP5.png" data-full="Photos/photoshoots/Photoshoot_1/Image5.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP6.png" data-full="Photos/photoshoots/Photoshoot_1/Image6.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP7.png" data-full="Photos/photoshoots/Photoshoot_1/Image7.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP8.png" data-full="Photos/photoshoots/Photoshoot_1/Image8.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP9.png" data-full="Photos/photoshoots/Photoshoot_1/Image9.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP10.png" data-full="Photos/photoshoots/Photoshoot_1/Image10.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP11.png" data-full="Photos/photoshoots/Photoshoot_1/Image11.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP12.png" data-full="Photos/photoshoots/Photoshoot_1/Image12.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP13.png" data-full="Photos/photoshoots/Photoshoot_1/Image13.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP14.png" data-full="Photos/photoshoots/Photoshoot_1/Image14.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP15.png" data-full="Photos/photoshoots/Photoshoot_1/Image15.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP16.png" data-full="Photos/photoshoots/Photoshoot_1/Image16.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP17.png" data-full="Photos/photoshoots/Photoshoot_1/Image17.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP18.png" data-full="Photos/photoshoots/Photoshoot_1/Image18.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP19.png" data-full="Photos/photoshoots/Photoshoot_1/Image19.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP20.png" data-full="Photos/photoshoots/Photoshoot_1/Image20.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP21.png" data-full="Photos/photoshoots/Photoshoot_1/Image21.png" id="pic" onclick="openFullImg(this)">
+                <img src="Photos/photoshoots/Photoshoot_1/ImageP22.png" data-full="Photos/photoshoots/Photoshoot_1/Image22.png" id="pic" onclick="openFullImg(this)">
             </div>
         </main>
         <script>
-            const imageMap = {
-                "Photos/photoshoots/Photoshoot_1/ImageP1.png": "Photos/photoshoots/Photoshoot_1/Image1.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP2.png": "Photos/photoshoots/Photoshoot_1/Image2.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP3.png": "Photos/photoshoots/Photoshoot_1/Image3.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP4.png": "Photos/photoshoots/Photoshoot_1/Image4.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP5.png": "Photos/photoshoots/Photoshoot_1/Image5.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP6.png": "Photos/photoshoots/Photoshoot_1/Image6.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP7.png": "Photos/photoshoots/Photoshoot_1/Image7.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP8.png": "Photos/photoshoots/Photoshoot_1/Image8.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP9.png": "Photos/photoshoots/Photoshoot_1/Image9.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP10.png": "Photos/photoshoots/Photoshoot_1/Image10.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP11.png": "Photos/photoshoots/Photoshoot_1/Image11.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP12.png": "Photos/photoshoots/Photoshoot_1/Image12.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP13.png": "Photos/photoshoots/Photoshoot_1/Image13.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP14.png": "Photos/photoshoots/Photoshoot_1/Image14.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP15.png": "Photos/photoshoots/Photoshoot_1/Image15.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP16.png": "Photos/photoshoots/Photoshoot_1/Image16.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP17.png": "Photos/photoshoots/Photoshoot_1/Image17.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP18.png": "Photos/photoshoots/Photoshoot_1/Image18.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP19.png": "Photos/photoshoots/Photoshoot_1/Image19.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP20.png": "Photos/photoshoots/Photoshoot_1/Image20.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP21.png": "Photos/photoshoots/Photoshoot_1/Image21.png",
-                "Photos/photoshoots/Photoshoot_1/ImageP22.png": "Photos/photoshoots/Photoshoot_1/Image22.png"
-            };
-
             var fullImgBox = document.getElementById("fullImgBox");
             var fullImg = document.getElementById("fullImg");
 
-            function openFullImg(thumbnailPath) {
-                const fullSizePath = imageMap[thumbnailPath];
-                if (fullSizePath) {
-                    fullImgBox.style.display = "flex";
-                    fullImg.src = fullSizePath;
-                } else {
-                    console.error("Full-size image path not found for:", thumbnailPath);
-                }
+            function openFullImg(picElement) {
+                fullImgBox.style.display = "flex";
+                fullImg.src = picElement.getAttribute("data-full");
             }
 
             function closeFullImg() {
