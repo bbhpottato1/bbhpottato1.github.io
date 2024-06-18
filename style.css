@@ -134,7 +134,7 @@ div.content {
   width:100%;
   height:auto;
   border-radius:10%;
-  border-style: solid;
+  border: 5px solid black;
 
 }
 
@@ -149,7 +149,8 @@ div.content {
   height:50%;
   border-bottom-right-radius:10%;
   border-bottom-left-radius:10%;
-  border-style:solid;
+  border: 5px solid black;
+  display: inline-block;
 
 }
 
