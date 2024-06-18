@@ -22,50 +22,14 @@
                 <a href="about.html">About</a>
             </div>
         </div>
-        <main class="main-content">
-            <div class="full_Img" id="fullImgBox">
-                <img src="" id="fullImg">
-                <span onclick="closeFullImg()">X</span>
+        <div class="main-container">
+            <a href="https://github.com/bbhpottato1/bbhpottato1.github.io"><img src="Repository.jpg" class="image"></img></a>
+            <div class="overlay">
+                <a href="https://github.com/bbhpottato1/bbhpottato1.github.io"><h1>Github Repository</h1></a>
             </div>
+        </div>
 
-            <div class="img-gallery">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP1.png" data-full="Photos/photoshoots/Photoshoot_1/Image1.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP2.png" data-full="Photos/photoshoots/Photoshoot_1/Image2.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP3.png" data-full="Photos/photoshoots/Photoshoot_1/Image3.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP4.png" data-full="Photos/photoshoots/Photoshoot_1/Image4.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP5.png" data-full="Photos/photoshoots/Photoshoot_1/Image5.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP6.png" data-full="Photos/photoshoots/Photoshoot_1/Image6.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP7.png" data-full="Photos/photoshoots/Photoshoot_1/Image7.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP8.png" data-full="Photos/photoshoots/Photoshoot_1/Image8.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP9.png" data-full="Photos/photoshoots/Photoshoot_1/Image9.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP10.png" data-full="Photos/photoshoots/Photoshoot_1/Image10.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP11.png" data-full="Photos/photoshoots/Photoshoot_1/Image11.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP12.png" data-full="Photos/photoshoots/Photoshoot_1/Image12.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP13.png" data-full="Photos/photoshoots/Photoshoot_1/Image13.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP14.png" data-full="Photos/photoshoots/Photoshoot_1/Image14.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP15.png" data-full="Photos/photoshoots/Photoshoot_1/Image15.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP16.png" data-full="Photos/photoshoots/Photoshoot_1/Image16.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP17.png" data-full="Photos/photoshoots/Photoshoot_1/Image17.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP18.png" data-full="Photos/photoshoots/Photoshoot_1/Image18.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP19.png" data-full="Photos/photoshoots/Photoshoot_1/Image19.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP20.png" data-full="Photos/photoshoots/Photoshoot_1/Image20.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP21.png" data-full="Photos/photoshoots/Photoshoot_1/Image21.png" id="pic" onclick="openFullImg(this)">
-                <img src="Photos/photoshoots/Photoshoot_1/ImageP22.png" data-full="Photos/photoshoots/Photoshoot_1/Image22.png" id="pic" onclick="openFullImg(this)">
-            </div>
-        </main>
-        <script>
-            var fullImgBox = document.getElementById("fullImgBox");
-            var fullImg = document.getElementById("fullImg");
 
-            function openFullImg(picElement) {
-                fullImgBox.style.display = "flex";
-                fullImg.src = picElement.getAttribute("data-full");
-            }
-
-            function closeFullImg() {
-                fullImgBox.style.display = "none";
-            }
-        </script>
     </body>
 </html>
 
