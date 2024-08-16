@@ -96,103 +96,75 @@ div.content {
   height: auto;
 }
 
-.full_Img {
-    width:100%;
-    height: 100vh;
-    background: rgba(0,0,0,0.9);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: none;
-    align-items: center;
-    justify-content: center;
-}
-
-.full_Img img {
-  width: 50%;
-  max-width: 720px;
-}
-
-.full_Img span{
-  position: absolute;
-  top: 5%;
-  right: 5%;
-  font: 50px;
-  color:#ffffff;
-  cursor: pointer;
-}
-
-.main-container{
-  margin: 6% 0 0 0; /* Remove the left margin */
-  position: relative;
-  width: 48%; /* Adjust the width to accommodate both containers side by side */
-  display: inline-block; /* Change to inline-block to display containers side by side */
-  vertical-align: top;
-
-}
-
-.image {
-  display:block;
-  width:50%;
-  height:auto;
-  border-radius:10%;
-  border: 5px solid black;
-
-}
-
-.overlay{
-  position:absolute;
-  bottom:0;
-  left:0;
-  right:0;
-  background-color:rgb(255, 255, 255);
-  overflow:hidden;
-  width:50%;
-  height:25%;
-  
-  border: 5px solid black;
-  display: inline-block;
-
-}
-
-.overlay h1 {
-  color:rgb(0, 0, 0);
-  height:50%;
-  font-family: 'cabin';
-}
-
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
 }
 
 .gallery {
-  column-count: 3;
-  column-gap: 10px;
-  padding: 10px;
+  columns: 3; /* Number of columns */
+  column-gap: 10px; /* Gap between columns */
+  padding: 20px;
 }
 
-.item {
-  break-inside: avoid;
-  margin-bottom: 10px;
+.gallery-item {
+  break-inside: avoid; /* Prevents breaking inside columns */
+  margin-bottom: 10px; /* Space between items */
 }
 
-.item img {
+.gallery-item img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 5px;
 }
 
-@media screen and (max-width: 800px) {
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 800px) {
   .gallery {
-      column-count: 2;
+      columns: 2;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 500px) {
   .gallery {
-      column-count: 1;
+      columns: 1;
   }
 }
